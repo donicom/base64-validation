@@ -3,13 +3,13 @@ Laravel validators for base64 encoded files, includes versions of laravel files 
 ## Requirements
 
 * PHP: 7.1+
-* Laravel: 5.5+/6+/7+/8+
+* Lumen: 6.x/7.x/8.x
 
 ## Install
 
 * Install composer package to your laravel project
 ``` bash
-$ composer require crazybooot/base64-validation
+$ composer require donicom/base64-validation
 ```
 
 ## Using
