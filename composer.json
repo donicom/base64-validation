@@ -26,11 +26,5 @@
       "App\\": "app/",
       "Crazybooot\\Base64Validation\\": "/src"
     }
-  },
-  "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/donicom/base64-validation"
-        }
-    ]
+  }
 }
