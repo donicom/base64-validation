@@ -13,6 +13,11 @@ $ composer require donicom/base64-validation
 ```
 
 ## Using
+Register the ServiceProvider in the bootstrap/app.php file:
+```
+$app->register(Crazybooot\Base64Validation\Providers\ServiceProvider::class);
+```
+
 Use base64 validation rules as usual Laravel validation rules. Base64 rules variants supports all parameters from their original Laravel rules.
  ```php
 public function rules(): array
